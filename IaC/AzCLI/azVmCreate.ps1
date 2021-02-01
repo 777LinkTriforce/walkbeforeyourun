@@ -71,7 +71,7 @@ try {
         --resource-group $resourceGroupName `
         --admin-username $adminLogin `
         --admin-password $adminPassword `
-        --image "/subscriptions/$azureSubscriptionName/resourceGroups/windows10base_group/providers/Microsoft.Compute/galleries/myGallery/images/win10" `
+        --image "/subscriptions/$azureSubscriptionName/resourceGroups/$resourceGroupName/providers/Microsoft.Compute/galleries/myGallery/images/win10" `
         --specialized
     }
 catch {
