@@ -1,5 +1,7 @@
 name: crawlWalkRun
 
+on: [push]
+
 jobs:
   scripts:
     runs-on: windows-latest
