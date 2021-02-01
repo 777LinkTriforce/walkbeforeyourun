@@ -69,11 +69,10 @@ try {
     az vm create  `
         --name $serverName `
         --resource-group $resourceGroupName `
-        --image "Win2019Datacenter" `
         --admin-username $adminLogin `
-        --admin-password $adminPassword
-
-
+        --admin-password $adminPassword `
+        --image "/subscriptions/$azureSubscriptionName/resourceGroups/windows10base_group/providers/Microsoft.Compute/galleries/myGallery/images/win10" `
+        --specialized
     }
 catch {
     Write-Output "VM already exists"
