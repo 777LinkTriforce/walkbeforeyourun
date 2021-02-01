@@ -24,7 +24,7 @@ jobs:
         RESOURCE_GROUP: Services
         RESOURCE_GROUP_REGION: northcentralus
         SERVER_NAME: workvm
-        SERVER_SIZE: Standard_D2s_v3
+        SERVER_SIZE: Standard_D3_v2
         ADMIN_LOGIN: jpOPS
       run: >
         powershell -command "& '${{ env.OUTPUT_PATH }}\IaC\AzCLI\azVmCreate.ps1'" 
