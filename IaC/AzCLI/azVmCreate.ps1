@@ -75,7 +75,7 @@ try {
         --resource-group $resourceGroupName `
         --admin-username $adminLogin `
         --admin-password $adminPassword`
-        --license-type "Windows_Client"
+
 
     }
 catch {
