@@ -1,4 +1,4 @@
-name: crawlWalkRun
+name: crawlWalkRunRepeat
 
 on: [push]
 
