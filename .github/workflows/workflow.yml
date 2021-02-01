@@ -6,5 +6,5 @@ jobs:
   scripts:
     runs-on: windows-latest
     steps:
-      - run: Write-Host "Isn't playing with fire fun!"
+      - run: Write-Host "I think ice baths are more pure than fire play."
         shell: powershell
