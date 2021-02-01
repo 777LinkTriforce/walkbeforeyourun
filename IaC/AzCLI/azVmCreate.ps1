@@ -29,11 +29,7 @@ param(
     [Parameter(Mandatory = $True)]  
     [string]
     $serverName,
-
-    [Parameter(Mandatory = $True)]  
-    [string]
-    $serverSize,
-    
+   
     [Parameter(Mandatory = $True)]  
     [string]
     $adminLogin,
