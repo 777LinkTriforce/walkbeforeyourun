@@ -69,7 +69,7 @@ try {
     az vm create  `
         --name $serverName `
         --resource-group $resourceGroupName `
-        --image "2019-DataCenter" `
+        --image "WindowsServer" `
         --admin-username $adminLogin `
         --admin-password $adminPassword
 
