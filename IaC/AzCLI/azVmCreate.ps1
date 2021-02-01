@@ -75,7 +75,6 @@ try {
         --resource-group $resourceGroupName `
         --admin-username $adminLogin `
         --admin-password $adminPassword`
-        --size $serverSize `
         --license-type "Windows_Client"
 
     }
